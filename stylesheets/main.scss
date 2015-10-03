@@ -20,7 +20,10 @@
 // 4. Layout-related sections
 @import
   'layout/header',
-  'layout/footer';
+  'layout/footer',
+  'layout/toc',
+  'layout/main',
+  'layout/tagline';
 
 // 5. Components
 @import

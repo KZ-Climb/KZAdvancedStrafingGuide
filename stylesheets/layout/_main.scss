@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the main of the site/application.
+// -----------------------------------------------------------------------------
+.title {
+	margin-top:75px;
+	margin-bottom:0;
+}
+
+.textbox {
+	padding-left:80px;
+	padding-right:120px;
+}
+
+hr {
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	max-width: 90%;
+	margin-left:0;
+}
