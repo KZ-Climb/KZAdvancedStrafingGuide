@@ -19,3 +19,48 @@ hr {
 	max-width: 90%;
 	margin-left:0;
 }
+
+.part {
+	text-align:center;
+	background-color:$theme-color;
+	padding:40px;
+	margin-top:60px;
+	margin-bottom:60px;
+}
+
+.part-title {
+	color:white;
+	font-size:50px;
+	margin:0;
+}
+
+.part-text {
+	color:mix(white, $theme-color, 75%);
+	strong {
+		color:white;
+		font-weight:700;
+	}
+}
+
+.part-hr {
+	max-width: 100%;
+}
+
+.jump-types li {
+	margin-bottom:10px;
+}
+
+.code-area {
+	background-color:$code-background-color;
+	color:white;
+  	max-width:$max-width;
+  	padding:20px;
+  	padding-left:80px;
+	padding-right:120px;
+	margin-left:80px;
+	width:80%;
+}
+
+.code-text {
+  	font: normal 18px / 1.6 $code-font-stack;	
+}
