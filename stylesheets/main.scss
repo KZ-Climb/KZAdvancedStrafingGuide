@@ -7,13 +7,11 @@
 // 2. Configuration and helpers
 @import
   'utils/variables',
-  'utils/functions',
   'utils/mixins';
 
 // 3. Base stuff
 @import
   'base/base',
-  'base/fonts',
   'base/typography',
   'base/helpers';
 
@@ -24,15 +22,3 @@
   'layout/toc',
   'layout/main',
   'layout/tagline';
-
-// 5. Components
-@import
-  'components/buttons';
-
-// 6. Page-specific styles
-@import
-  'pages/home';
-
-// 7. Themes
-@import
-  'themes/default';
